@@ -36,6 +36,7 @@ and '.markdown' (these are currently hardcoded and not configurable).
 pyblosxom-markdown currently uses Python Markdown's
 [Extra](https://pythonhosted.org/Markdown/extensions/extra.html) and
 [SmartyPants](https://pythonhosted.org/Markdown/extensions/smarty.html) plugins
+(hardcoded, not configurable).
 
 pyblosxom-markdown renders entries as HTML5 (hardcoded, not configurable).
 
