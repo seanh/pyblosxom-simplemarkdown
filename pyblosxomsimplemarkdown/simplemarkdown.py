@@ -1,6 +1,6 @@
-__author__      = "Sean Hammond pyblosxom-simplemarkdown at seanh dot cc"
+__author__      = "Sean Hammond pyblosxomsimplemarkdown at seanh dot cc"
 __version__     = "0.1"
-__url__         = "https://github.com/seanh/pyblosxom-simplemarkdown"
+__url__         = "https://github.com/seanh/pyblosxomsimplemarkdown"
 __description__ = ("A Pyblosxom entryparser plugin that uses Markdown syntax "
                    "and parses the whole file as the entry body")
 

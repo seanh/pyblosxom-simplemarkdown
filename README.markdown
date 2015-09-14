@@ -1,11 +1,11 @@
-# pyblosxom-simplemarkdown
+# pyblosxomsimplemarkdown
 
-pyblosxom-simplemarkdown is a [PyBlosxom](https://pyblosxom.github.io/)
+pyblosxomsimplemarkdown is a [PyBlosxom](https://pyblosxom.github.io/)
 entryparser plugin that lets you write your entries in
 [Markdown](http://daringfireball.net/projects/markdown/). Specifically,
 [Python Markdown](https://pythonhosted.org/Markdown/) is used.
 
-pyblosxom-simplemarkdown differs from other PyBlosxom Markdown plugins in that
+pyblosxomsimplemarkdown differs from other PyBlosxom Markdown plugins in that
 it treats the entire contents of the entry file as just the entry body.
 Normally PyBlosxom treats the first line of an entry as its title, any
 following lines that start with `#` as metadata, and the rest of the file as
@@ -17,7 +17,7 @@ the entry's body:
 
     The rest of the file is the Markdown-formatted entry body...
 
-pyblosxom-simplemarkdown just treats the entire contents of the file as a
+pyblosxomsimplemarkdown just treats the entire contents of the file as a
 Markdown-formatted body. The entry dict won't have any value in its 'title'
 field. If you want to write a traditional blog post with a title and body, just
 insert the title yourself:
@@ -43,12 +43,12 @@ pyblosxom-markdown renders entries as HTML5 (hardcoded, not configurable).
 
 ## Installation
 
-Install the pyblosxom-simplemarkdown package from pip:
+Install the pyblosxomsimplemarkdown package from pip:
 
-    pip install pyblosxom-simplemarkdown
+    pip install pyblosxomsimplemarkdown
 
 Then add it to the `load_plugins` setting in your `config.py`:
 
     py["load_plugins"] = [
-        'pyblosxom-simplemarkdown.simplemarkdown',
+        'pyblosxomsimplemarkdown.simplemarkdown',
     ]
