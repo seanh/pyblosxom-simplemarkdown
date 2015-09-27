@@ -49,6 +49,4 @@ Install the pyblosxomsimplemarkdown package from pip:
 
 Then add it to the `load_plugins` setting in your `config.py`:
 
-    py["load_plugins"] = [
-        'pyblosxomsimplemarkdown.simplemarkdown',
-    ]
+    py["load_plugins"] = ["pyblosxomsimplemarkdown"]
